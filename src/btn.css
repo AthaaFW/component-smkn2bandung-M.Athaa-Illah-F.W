@@ -1,0 +1,17 @@
+.hamburger-bar{
+    display: flex;
+    border-radius: 0.25rem;
+    flex-direction: row;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.hide{
+    width: 0;
+    font-size: 0;
+    transform: translateX(-100%);
+}
